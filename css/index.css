@@ -1,0 +1,98 @@
+
+body {
+  background-image: url(../public/img/fond.jpg);
+}
+ .carousel-item {
+  height: 32rem;
+}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+h1{
+  font-style: italic;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+.new {
+  position:absolute;
+  top:10px;
+  left:200px;
+}
+.col-lg-4:hover img {
+  /* L'image est grossie de 25% */
+  -webkit-transform:scale(1.25); /* Safari et Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* Internet Explorer 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform:scale(1.25);
+  }
+  .col-lg-4 { -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 2s ease; /* Firefox */
+-ms-transition: all 2s ease; /* Internet Explorer 9 */
+-o-transition: all 2s ease; /* Opera */
+transition: all 2s ease;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+ 
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/*****************************/
+.cake-title {
+  margin-top: 150px;
+  margin-left: 180px;
+  
+}
+.pub1 {   border-radius: 40px;
+          margin-left: 80px;
+          width: 80%;
+          height: 80%;
+          margin-top: 70px;  
+}
+.pub2 {border-radius: 40px;
+      margin-right: 80px;
+      width: 80%;
+      height: 80%;
+     
+      
+}
+/*-------------------------*/
+ h1 { font-family: "DancingScript-Bold.ttf";
+
+}
+.foot-lg {
+  background-color:hsla(0, 0%, 0%, 0.4)
+}
+
+@font-face {
+    font-family: "DancingScript-Bold.ttf";
+    src: url('https://fonts.googleapis.com/css2? family= Dancing+Script & display=swap');
+}
+@media screen and (max-width: 768px) {
+  .pub1 {
+    margin: 50px;
+    /*margin-right: 60px;
+    margin-left: 50px;*/
+  }
+  .pub2 {margin: 50px;
+    /*margin-right: 60px;
+    margin-left: 50px;*/
+  }
+}

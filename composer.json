@@ -1,0 +1,16 @@
+{
+    "name": "ess/app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ess\\App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ghoul Nihel",
+            "email": "nihel.elghoul@gmail.com"
+        }
+    ],
+    "require": {}
+}
